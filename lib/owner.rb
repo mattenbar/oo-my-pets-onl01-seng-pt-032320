@@ -30,7 +30,6 @@ class Owner
 
   def self.reset_all
     all = []
-    
   end
 
 
