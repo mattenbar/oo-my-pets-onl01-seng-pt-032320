@@ -19,5 +19,3 @@ class Cat
   def save
     @@all << self
   end
-
-end
