@@ -9,11 +9,12 @@ class Owner
     @name = name
     @species = "human"
     save
-    @@count += 1
+
   end
 
   def save
     @@all << self
+    @@count += 1
   end
 
   def say_species
@@ -58,7 +59,7 @@ class Owner
   end
 
   def sell_cats
-    
+
   end
 
 
