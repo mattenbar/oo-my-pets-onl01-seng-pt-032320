@@ -20,4 +20,9 @@ class Dog
     @@all << self
   end
 
+  def mood=()
+    @mood = mood
+  end
+
+
 end
