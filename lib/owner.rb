@@ -2,6 +2,7 @@ require "pry"
 class Owner
   # code goes here
   attr_reader :name, :species
+  @@all = []
 
   def initialize (name)
     @name = name
@@ -12,7 +13,9 @@ class Owner
     return "I am a human."
   end
 
+  def self.all?
+    @@all
+  end
 
 
-  
 end
