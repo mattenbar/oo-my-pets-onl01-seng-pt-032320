@@ -1,8 +1,9 @@
 require "pry"
 class Cat
   # code goes here
-  attr_accessor :name, :owner
-  
+  attr_accessor :owner
+  attr_reader :name
+
   def initialize (name, owner)
     @name = name
     @owner = owner
