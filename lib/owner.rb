@@ -50,7 +50,7 @@ class Owner
   end
 
   def walk_dogs
-    Dog.all.each {|dog| @mood = "happy"}
+    Dog.all.map {|dog| @mood = "happy"}
   end
 
 
