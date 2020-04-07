@@ -3,11 +3,13 @@ class Owner
   # code goes here
   attr_reader :name, :species
   @@all = []
+  @@count = 0
 
   def initialize (name)
     @name = name
     @species = "human"
     save
+    @@count += 1
   end
 
   def save
