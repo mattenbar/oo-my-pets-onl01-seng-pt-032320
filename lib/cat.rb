@@ -4,6 +4,7 @@ class Cat
   attr_accessor :owner, :mood
   attr_reader :name
   @@all = []
+  @@count = 0
 
   def initialize (name, owner)
     @name = name
@@ -18,6 +19,7 @@ class Cat
 
   def save
     @@all << self
+    @@count += 1
   end
 
 end
