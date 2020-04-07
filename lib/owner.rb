@@ -59,7 +59,7 @@ class Owner
   end
 
   def sell_cats
-
+    cats.clear
   end
 
 
